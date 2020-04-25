@@ -1,0 +1,35 @@
+﻿
+@model WebApplication1.Models.employee
+s
+@using (Html.BeginForm(FormMethod.Post))
+{
+<fieldset>
+    <legend>Employee Details</legend>
+    <div id="divInterestDeatils"></div>
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.FName)
+    </div>
+    <div class="editor-field">
+        @Html.EditorFor(model => model.FName)
+    </div>
+    <div class="editor-label">
+        @Html.LabelFor(model => model.Lname)
+    </div>
+    <div class="editor-field">
+        @Html.EditorFor(model => model.Lname)
+    </div>
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.AGE)
+    </div>
+    <div class="editor-field">
+        @Html.EditorFor(model => model.AGE)
+    </div>
+    <p>
+        <input type="submit" value="submit" />
+    </p>
+</fieldset>
+    }
+
+

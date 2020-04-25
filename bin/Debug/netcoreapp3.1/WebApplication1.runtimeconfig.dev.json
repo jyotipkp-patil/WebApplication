@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\chennu\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\chennu\\.nuget\\packages"
+    ]
+  }
+}
